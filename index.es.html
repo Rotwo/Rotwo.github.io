@@ -30,7 +30,7 @@
 </head>
 <body>
 
-    <p class="font-monospace" id="text_countdown">Redirecting to 👉 rotwo-website.web.app 🔥 in 5 Seconds</p>
+    <p class="font-monospace" id="text_countdown">Redirigiendo a 👉 rotwo-website.web.app 🔥 en 5 Segundos</p>
 
 
             <!--NAVBAR BOTTOM-->
@@ -38,8 +38,8 @@
                 <!-- Navbar content -->
                 <div class="container-fluid">
                     <a class="navbar-brand" href="https://github.com/rotwo">Github</a>
-                    <a class="navbar-brand" href="/./info/en/">Why am I redirected to another page?    </a>
-                    <a class="navbar-brand" href="mailto://Support.Rotwo@proton.me">Contact Me</a>
+                    <a class="navbar-brand" href="/./info/en/">Porque soy redirigido?    </a>
+                    <a class="navbar-brand" href="mailto://Support.Rotwo@proton.me">Contactame</a>
                 </div>
               </nav>
 
@@ -47,12 +47,6 @@
 
         <!--Script-->
         <script>
-
-            // If the browser idiom is setted to spanish, then redirect to index#es.html
-            if (navigator.language.includes("es")) {
-        window.location.href = "/../index.es.html";
-    }
-
             var SecondsToRedirect = 6;
             var CountDownFrom = SecondsToRedirect;
     
@@ -63,7 +57,7 @@
             function redirect(){
                 CountDownFrom--;
     
-                text_countdown.innerHTML = "Redirecting to 👉 rotwo-web.web.app 🔥 in " + CountDownFrom + " Seconds";
+                text_countdown.innerHTML = "Redirigiendo a 👉 rotwo-web.web.app 🔥 en " + CountDownFrom + " Segundos";
     
                 if(CountDownFrom == 0){
                     window.location.href = "https://rotwo-web.web.app/";
