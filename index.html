@@ -47,22 +47,6 @@
 
         <!--Script-->
         <script>
-
-            // Check the arguments (if there is any) example: htto://rotwo-web.web.app/index.html?lang=es
-            var url = window.location.href;
-            var query = url.split("?");
-            var args1 = query[1];
-
-            if (args1 == "register") {
-                window.location.href = "https://rotwo-web.web.app/Account/login/";
-            }
-
-            if (args1 == "login") {
-                window.location.href = "https://rotwo-web.web.app/Account/register/";
-            }
-
-            
-
             // If the browser idiom is setted to spanish, then redirect to index#es.html
             if (navigator.language.includes("es")) {
         window.location.href = "/../index.es.html";
